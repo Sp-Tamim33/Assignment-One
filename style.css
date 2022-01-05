@@ -37,10 +37,10 @@
 .home-big-text::after {
     content: "";
     position: absolute;
-    width: 3px;
+    width: 4px;
     height: 148px;
     top: 25px;
-    left: -15px;
+    left: -19px;
     background-color: orange;
     border-radius: 10px;
 }
@@ -172,7 +172,8 @@
     margin-top: 15%;
 }
 .right-inner-content h2{
-    font-size: 70px;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 .right-inner-content h1{
     font-size: 70px;
@@ -191,4 +192,45 @@
     padding: 10px 40px;
     border-radius: 5px;
     font-size: 24px;
+}
+
+/* Team Section Css */
+
+.team-content{
+    width: 40%;
+}
+.team-inner-content {
+    width: 100%;
+    margin-left: 37%;
+    margin-top: 10%;
+}
+.team-inner-content h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.team-inner-content h1{
+    font-size: 70px;
+}
+.team-inner-content p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 33px;
+    width: 80%;
+    line-height: 30px;
+}
+.team-inner-content a{
+    text-decoration: none;
+    color: white;
+    background: orange;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 24px;
+}
+.team-img{
+    width: 40%;
+}
+.team-img img {
+    max-width: 100%;
+    width: 480px;
+    margin-left: 37%;
 }
